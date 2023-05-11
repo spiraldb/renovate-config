@@ -4,11 +4,9 @@
     "config:base"
   ],
   "dependencyDashboard": true,
-  "platformAutomerge": true,
   "packageRules": [
     {
       "description": "Automerge non-major updates",
-      "automerge": true,
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -17,6 +15,19 @@
       "groupSlug": "all-minor-patch"
     }
   ],
+  "platformAutomerge": true,
+  "lockFileMaintenance": {
+    "automerge": true
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
   "postUpdateOptions": [
     "pnpmDedupe"
   ]
