@@ -4,6 +4,7 @@
     "config:base"
   ],
   "dependencyDashboard": true,
+  "minimumReleaseAge": "14 days",
   "packageRules": [
     {
       "description": "Automerge non-major updates",
