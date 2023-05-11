@@ -5,10 +5,10 @@
   ],
   "dependencyDashboard": true,
   "platformAutomerge": true,
-  "automerge": true,
   "packageRules": [
     {
       "description": "Automerge non-major updates",
+      "automerge": true,
       "matchUpdateTypes": [
         "minor",
         "patch"
