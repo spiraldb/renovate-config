@@ -6,9 +6,9 @@
     ":automergePr",
     ":automergeRequireAllStatusChecks",
     ":combinePatchMinorReleases",
+    ":dependencyDashboard",
     ":separateMultipleMajorReleases"
   ],
-  "dependencyDashboard": true,
   "minimumReleaseAge": "14 days",
   "platformAutomerge": true,
   "postUpdateOptions": [
