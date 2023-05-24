@@ -10,7 +10,6 @@
     ":separateMultipleMajorReleases"
   ],
   "automergeStrategy": "squash",
-  "minimumReleaseAge": "14 days",
   "platformAutomerge": true,
   "postUpdateOptions": [
     "pnpmDedupe"
