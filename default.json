@@ -15,6 +15,10 @@
   "postUpdateOptions": [
     "pnpmDedupe"
   ],
+  "separateMinorPatch": true,
+  "patch": {
+    "groupName": "all patch updates"
+  },
   "packageRules": [
     {
       "matchPackagePrefixes": [
