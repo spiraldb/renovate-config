@@ -14,5 +14,26 @@
   "platformAutomerge": true,
   "postUpdateOptions": [
     "pnpmDedupe"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePrefixes": [
+        "arrow",
+        "parquet"
+      ],
+      "groupName": "arrow"
+    },
+    {
+      "matchPackagePrefixes": [
+        "datafusion"
+      ],
+      "groupName": "datafusion"
+    },
+    {
+      "matchPackagePrefixes": [
+        "futures"
+      ],
+      "groupName": "futures"
+    }
   ]
 }
