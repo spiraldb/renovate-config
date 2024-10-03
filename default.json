@@ -9,6 +9,9 @@
     ":dependencyDashboard",
     ":separateMultipleMajorReleases"
   ],
+  "lockFileMaintenance": {
+    enabled: true,
+  },
   "autoApprove": true,
   "automergeStrategy": "squash",
   "platformAutomerge": true,
