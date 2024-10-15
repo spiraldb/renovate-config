@@ -10,7 +10,7 @@
     ":separateMultipleMajorReleases"
   ],
   "lockFileMaintenance": {
-    enabled: true,
+    "enabled": true
   },
   "autoApprove": true,
   "automergeStrategy": "squash",
@@ -41,6 +41,12 @@
         "futures"
       ],
       "groupName": "futures"
+    },
+    {
+      "matchPackagePrefixes": [
+        "tonic"
+      ],
+      "groupName": "tonic"
     }
   ]
 }
