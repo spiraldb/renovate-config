@@ -14,6 +14,7 @@
   },
   "autoApprove": true,
   "automergeStrategy": "squash",
+  "rebaseWhen": "conflicted",
   "platformAutomerge": true,
   "postUpdateOptions": [
     "pnpmDedupe"
