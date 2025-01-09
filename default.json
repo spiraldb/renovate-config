@@ -27,15 +27,11 @@
     {
       "matchPackagePrefixes": [
         "arrow",
-        "parquet"
+        "parquet",
+        "datafusion",
+        "pyo3"
       ],
-      "groupName": "arrow"
-    },
-    {
-      "matchPackagePrefixes": [
-        "datafusion"
-      ],
-      "groupName": "datafusion"
+      "groupName": "arrow + datafusion"
     },
     {
       "matchPackagePrefixes": [
