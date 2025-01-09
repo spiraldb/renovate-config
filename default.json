@@ -31,7 +31,7 @@
         "datafusion",
         "pyo3"
       ],
-      "groupName": "arrow + datafusion"
+      "groupName": "datafusion and friends"
     },
     {
       "matchPackagePrefixes": [
