@@ -35,7 +35,7 @@
         "major",
         "minor",
         "patch"
-      ]
+      ],
       "groupName": "datafusion and friends"
     },
     {
