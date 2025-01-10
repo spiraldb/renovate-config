@@ -31,6 +31,11 @@
         "datafusion",
         "pyo3"
       ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ]
       "groupName": "datafusion and friends"
     },
     {
