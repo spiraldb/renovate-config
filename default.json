@@ -36,7 +36,9 @@
         "minor",
         "patch"
       ],
-      "groupName": "datafusion and friends"
+      "groupName": "datafusion and friends",
+      "separateMajorMinor": "false",
+      "separateMinorPatch": "false",
     },
     {
       "matchPackagePrefixes": [
