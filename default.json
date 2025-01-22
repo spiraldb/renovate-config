@@ -40,6 +40,13 @@
     },
     {
       "matchPackagePrefixes": [
+        "flatbuffers",
+        "flexbuffers",
+      ],
+      "groupName": "flatbuffers"
+    },
+    {
+      "matchPackagePrefixes": [
         "futures"
       ],
       "groupName": "futures"
