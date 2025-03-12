@@ -41,7 +41,7 @@
     {
       "matchPackagePrefixes": [
         "flatbuffers",
-        "flexbuffers",
+        "flexbuffers"
       ],
       "groupName": "flatbuffers"
     },
