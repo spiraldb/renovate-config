@@ -15,6 +15,7 @@
   "autoApprove": true,
   "automergeStrategy": "squash",
   "rebaseWhen": "conflicted",
+  "cloneSubmodules": true,
   "platformAutomerge": true,
   "postUpdateOptions": [
     "pnpmDedupe"
