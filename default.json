@@ -63,6 +63,12 @@
         "**opentelemetry**"
       ],
       "groupName": "OpenTelemetry"
+    },
+    {
+      "matchPackagePrefixes": [
+        "vortex"
+      ],
+      "groupName": "vortex"
     }
   ]
 }
