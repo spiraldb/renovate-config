@@ -69,6 +69,12 @@
         "vortex"
       ],
       "groupName": "vortex"
+    },
+    {
+      "matchPackagePrefixes": [
+        "iceberg"
+      ],
+      "groupName": "iceberg"
     }
   ]
 }
