@@ -7,7 +7,8 @@
     ":automergeRequireAllStatusChecks",
     ":combinePatchMinorReleases",
     ":dependencyDashboard",
-    ":separateMultipleMajorReleases"
+    ":separateMultipleMajorReleases",
+    "helpers:pinGitHubActionDigests"
   ],
   "lockFileMaintenance": {
     "enabled": true
@@ -69,6 +70,12 @@
         "vortex"
       ],
       "groupName": "vortex"
+    },
+    {
+      "matchPackagePrefixes": [
+        "iceberg"
+      ],
+      "groupName": "iceberg"
     }
   ]
 }
