@@ -10,8 +10,10 @@
     ":separateMultipleMajorReleases",
     "helpers:pinGitHubActionDigests"
   ],
+  "schedule": ["* 0-4 * * *"],
   "lockFileMaintenance": {
-    "enabled": true
+    "enabled": true,
+    "schedule": ["* 0-4 * * 1"]
   },
   "autoApprove": true,
   "automergeStrategy": "squash",
@@ -21,24 +23,35 @@
   "postUpdateOptions": [
     "pnpmDedupe"
   ],
-  "separateMinorPatch": true,
-  "patch": {
-    "groupName": "all patch updates"
-  },
   "packageRules": [
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "groupName": "Rust dependencies"
+    },
+    {
+      "matchManagers": [
+        "uv"
+      ],
+      "matchFiles": [
+        "**/pyproject.toml",
+        "**/uv.lock"
+      ],
+      "groupName": "Python dependencies"
+    },
     {
       "matchPackagePrefixes": [
         "arrow",
-        "parquet",
-        "datafusion",
-        "pyo3"
+        "parquet"
       ],
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch"
+      "groupName": "Arrow/Parquet"
+    },
+    {
+      "matchPackagePrefixes": [
+        "datafusion"
       ],
-      "groupName": "datafusion and friends"
+      "groupName": "DataFusion"
     },
     {
       "matchPackagePrefixes": [
