@@ -89,6 +89,12 @@
         "iceberg"
       ],
       "groupName": "iceberg"
+    },
+        {
+      "matchPackagePrefixes": [
+        "pyo3"
+      ],
+      "groupName": "pyo3"
     }
   ]
 }
