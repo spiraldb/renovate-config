@@ -28,7 +28,8 @@
       "matchManagers": [
         "cargo"
       ],
-      "groupName": "Rust dependencies"
+      "groupName": "Rust dependencies",
+      "branchPrefix": "renovate/cargo/"
     },
     {
       "matchManagers": [
@@ -38,7 +39,8 @@
         "**/pyproject.toml",
         "**/uv.lock"
       ],
-      "groupName": "Python dependencies"
+      "groupName": "Python dependencies",
+      "branchPrefix": "renovate/uv/"
     },
     {
       "matchPackagePrefixes": [
