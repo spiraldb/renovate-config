@@ -44,34 +44,34 @@
       "branchPrefix": "renovate/uv/"
     },
     {
-      "matchPackagePrefixes": [
-        "arrow",
-        "parquet"
+      "matchPackageNames": [
+        "arrow*",
+        "parquet*"
       ],
       "groupName": "Arrow/Parquet"
     },
     {
-      "matchPackagePrefixes": [
-        "datafusion"
+      "matchPackageNames": [
+        "datafusion*"
       ],
       "groupName": "DataFusion"
     },
     {
-      "matchPackagePrefixes": [
-        "flatbuffers",
-        "flexbuffers"
+      "matchPackageNames": [
+        "flatbuffers*",
+        "flexbuffers*"
       ],
       "groupName": "flatbuffers"
     },
     {
-      "matchPackagePrefixes": [
-        "futures"
+      "matchPackageNames": [
+        "futures*"
       ],
       "groupName": "futures"
     },
     {
-      "matchPackagePrefixes": [
-        "tonic"
+      "matchPackageNames": [
+        "tonic*"
       ],
       "groupName": "tonic"
     },
@@ -82,20 +82,20 @@
       "groupName": "OpenTelemetry"
     },
     {
-      "matchPackagePrefixes": [
-        "vortex"
+      "matchPackageNames": [
+        "vortex*"
       ],
       "groupName": "vortex"
     },
     {
-      "matchPackagePrefixes": [
-        "iceberg"
+      "matchPackageNames": [
+        "iceberg*"
       ],
       "groupName": "iceberg"
     },
         {
-      "matchPackagePrefixes": [
-        "pyo3"
+      "matchPackageNames": [
+        "pyo3*"
       ],
       "groupName": "pyo3"
     }
