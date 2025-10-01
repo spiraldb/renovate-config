@@ -8,7 +8,6 @@
     ":combinePatchMinorReleases",
     ":dependencyDashboard",
     ":separateMultipleMajorReleases",
-    "helpers:pinGitHubActionDigests",
     ":configMigration"
   ],
   "schedule": ["* 0-4 * * *"],
@@ -25,6 +24,15 @@
     "pnpmDedupe"
   ],
   "packageRules": [
+    {
+      "matchDepTypes": [
+        "action"
+      ],
+      "pinDigests": true,
+      "extends": [
+        "schedule:weekly"
+      ]
+    },
     {
       "matchManagers": [
         "cargo"
