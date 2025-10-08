@@ -8,7 +8,10 @@
     ":combinePatchMinorReleases",
     ":dependencyDashboard",
     ":separateMultipleMajorReleases",
-    ":configMigration"
+    ":configMigration",
+    "group:rust-futuresMonorepo",
+    "group:opentelemetry-rustMonorepo",
+    "group:opentelemetry-rust-contribMonorepo"
   ],
   "schedule": ["* 0-4 * * *"],
   "lockFileMaintenance": {
@@ -52,60 +55,47 @@
       "branchPrefix": "renovate/uv/"
     },
     {
-      "matchPackageNames": [
-        "arrow*",
-        "parquet*"
-      ],
-      "groupName": "Arrow/Parquet"
+      "groupName": "Arrow/Parquet",
+      "matchSourceUrls": [
+        "https://github.com/apache/arrow-rs"
+      ]
     },
     {
-      "matchPackageNames": [
-        "datafusion*"
-      ],
-      "groupName": "DataFusion"
+      "groupName": "DataFusion",
+      "matchSourceUrls": [
+        "https://github.com/apache/datafusion"
+      ]
+
     },
     {
-      "matchPackageNames": [
-        "flatbuffers*",
-        "flexbuffers*"
-      ],
-      "groupName": "flatbuffers"
+      "groupName": "flatbuffers",
+      "matchSourceUrls": [
+        "https://github.com/google/flatbuffers"
+      ]
     },
     {
-      "matchPackageNames": [
-        "futures*"
-      ],
-      "groupName": "futures"
+      "groupName": "tonic",
+      "matchSourceUrls": [
+        "https://github.com/hyperium/tonic"
+      ]
     },
     {
-      "matchPackageNames": [
-        "tonic*"
-      ],
-      "groupName": "tonic"
+      "groupName": "vortex",
+      "matchSourceUrls": [
+        "https://github.com/vortex-data/vortex"
+      ]
     },
     {
-      "matchPackageNames": [
-        "**opentelemetry**"
-      ],
-      "groupName": "OpenTelemetry"
-    },
-    {
-      "matchPackageNames": [
-        "vortex*"
-      ],
-      "groupName": "vortex"
-    },
-    {
+      "groupName": "iceberg",
       "matchPackageNames": [
         "iceberg*"
-      ],
-      "groupName": "iceberg"
+      ]
     },
-        {
-      "matchPackageNames": [
-        "pyo3*"
-      ],
-      "groupName": "pyo3"
+    {
+      "groupName": "pyo3",
+      "matchSourceUrls": [
+        "https://github.com/PyO3/pyo3"
+      ]
     }
   ]
 }
